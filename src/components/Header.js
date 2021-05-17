@@ -31,7 +31,7 @@ function Header() {
                 </a>
 
             </NavMenu>
-            <UserImg src="/images/memories.png" />
+            <UserImg src="/images/bull.jfif" />
         </Nav>
     )
 }
