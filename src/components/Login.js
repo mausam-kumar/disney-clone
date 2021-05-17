@@ -74,9 +74,10 @@ const SignUp = styled.a`
 const Description = styled.p `
     color:white;
     font-size:13px;
-    letter-spacing:1.2px;
+    letter-spacing:1.1px;
     text-align:center;
     line-height:1.5;
+    font-family:'Fira Code'
 `
 const CTALogoTwo = styled.img `
     width:90%;
