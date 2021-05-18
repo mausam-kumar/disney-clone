@@ -27,7 +27,9 @@ function Detail() {
 
     return (
         <Container>
-            <Background>
+            {movie && 
+                <> 
+                <Background>
                 <img src={movie.backgroundImg} />
             </Background>
             <ImageTitle>
@@ -55,6 +57,9 @@ function Detail() {
             <Description>
                 {movie.description}
             </Description>
+                </>
+            }
+            
         </Container>
     )
 }
